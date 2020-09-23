@@ -5,3 +5,64 @@
   margin: 80px auto $base-margin auto;
   background-color: $white;
 }
+
+.app_header{
+  background-color:  $second-blue;
+  display: flex;
+  flex-direction: row;
+
+}
+.app_header h1{
+ color: white;
+width: 95%;
+}
+ .shooping_cart {
+   //flex-direction: row;
+   display: flex;
+}
+.shooping_cart p {
+  //flex-direction: row;
+  width: 20px;
+  text-align: center;
+  background-color: $support-red;
+  border-radius: 50%;
+  color: white;
+  font-size: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.huawei_list, .iphone_list{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.phone_item {
+  display: flex;
+  flex-direction: column;
+  margin: $base-margin;
+  width: 20%;
+  display: inline-block;
+  font-size: 15px;
+
+}
+.phone_name{
+  font-weight: bold;
+}
+
+.phone_item img {
+  margin-top: $base-margin;
+  width: 150px;
+}
+.under_img {
+  display: flex;
+  flex-direction: row;
+  padding-top: $base-padding;
+}
+
+.under_img  button{
+  background-color: $second-blue;
+  margin-left: 15px;
+}

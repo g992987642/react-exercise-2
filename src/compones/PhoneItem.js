@@ -9,7 +9,7 @@ class PhoneItem extends Component {
         <p className="phone_name">{this.props.phone.name}</p>
         <img className="phone_img" src={phoneImg} alt={this.props.phone.name} />
         <div className="under_img">
-          <p>￥ {this.props.phone.price}</p>
+          <p>{this.props.phone.price}</p>
           <button onClick={this.props.add}>add to cart</button>
         </div>
       </div>
